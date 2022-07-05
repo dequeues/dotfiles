@@ -44,9 +44,7 @@ fi
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 #
 
-if [[ $(type exa) ]]; then
-	alias ls='exa'
-fi
-alias fd='fdfind'
+(( $+commands[exa] )) && alias ls=exa
+(( $+commands[fdfind] )) && alias fd=fdfind
 
 eval "$(starship init zsh)"
