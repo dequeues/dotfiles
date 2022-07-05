@@ -1,0 +1,22 @@
+"$schema" = 'https://starship.rs/config-schema.json'
+
+add_newline = true
+
+[character] # The name of the module we are configuring is "character"
+success_symbol = "[➜](bold blue)"
+
+[hostname]
+ssh_only = true 
+format = "<[$hostname]($style)>"
+trim_at = "@"
+style = "bold dimmed white"
+disabled = false
+
+
+
+[username]
+style_user = "white bold"
+style_root = "black bold"
+format = "user: [$user]($style) "
+disabled = false
+show_always = false
