@@ -1,9 +1,14 @@
-# Install zsh and change shell
-sudo apt install zsh
-sudo -s 'echo /usr/local/bin/zsh >> /etc/shells' && chsh -s /usr/local/bin/zsh
+#!/bin/bash
 
-# Install oh-my-zsh
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+sudo apt-get install exa \
+	neovim \
+	fdfind \
+	tmux
 
-# Install starship prompt
-curl -sS https://starship.rs/install.sh | sh
+# Neovim plugins
+sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.vim --create-dirs \
+       https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
+vim +'PlugInstall --sync' +qa
+
+# asdf
+git clone https://github.com/asdf-vm/asdf.git ~/.asdf --branch v0.10.2
