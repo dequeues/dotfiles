@@ -20,3 +20,13 @@ style_root = "black bold"
 format = "user: [$user]($style) "
 disabled = false
 show_always = false
+
+
+[custom.tun0_address]
+command = "~/bin/tun0-address.sh"
+when = "ip addr show tun0"
+symbol = ""
+style = "bold bright-blue"
+format = "\\[[$symbol]($style) [$output]($style)\\] "
+
+
