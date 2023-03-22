@@ -44,6 +44,7 @@ fi
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 #
 
+alias aslroff="echo 0 | sudo tee /proc/sys/kernel/randomize_va_space"
 (( $+commands[exa] )) && alias ls=exa
 (( $+commands[fdfind] )) && alias fd=fdfind
 
