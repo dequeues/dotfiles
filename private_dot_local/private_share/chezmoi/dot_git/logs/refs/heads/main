@@ -1,0 +1,16 @@
+0000000000000000000000000000000000000000 7a8132d0a143072de88fc0d4fa358aedc5a595dc nathan <nathan@DESKTOP-O1L5C3J.localdomain> 1654828656 +0100	clone: from https://github.com/dequeues/dotfiles.git
+7a8132d0a143072de88fc0d4fa358aedc5a595dc d171c4cf0cc4e8cf9c37ebb00f1b646c8e097570 dequeues <dequeues@outlook.com> 1654883066 +0100	commit: Add tmux config
+d171c4cf0cc4e8cf9c37ebb00f1b646c8e097570 57a8d7b862d1bce53dec6740d2b468ac48a344fc dequeues <dequeues@outlook.com> 1654885479 +0100	commit: Add zshrc
+57a8d7b862d1bce53dec6740d2b468ac48a344fc 1f06e4d05add28462f6f01066b3add0bfa221300 dequeues <dequeues@outlook.com> 1656988585 +0100	pull: Fast-forward
+1f06e4d05add28462f6f01066b3add0bfa221300 c70908651da5dce056f54eeed3c61f9e9f61b0f5 dequeues <dequeues@outlook.com> 1656988805 +0100	commit: Add color to tmux status bar
+c70908651da5dce056f54eeed3c61f9e9f61b0f5 d7b5cfbe7fddf3ae630890a8241556b37df349c1 dequeues <dequeues@outlook.com> 1656989396 +0100	commit: Add .config
+d7b5cfbe7fddf3ae630890a8241556b37df349c1 3e8929315f3cbef230004db082e593bd95dbf09a dequeues <dequeues@outlook.com> 1656989448 +0100	commit: Add nvim config
+3e8929315f3cbef230004db082e593bd95dbf09a 2ea38df7f75fd52446330a58bae5dc759e0a81ab dequeues <dequeues@outlook.com> 1676005719 +0000	commit: add bin
+2ea38df7f75fd52446330a58bae5dc759e0a81ab d0c4c52b4f5f7511f4507cdd142117c25066b981 dequeues <dequeues@outlook.com> 1676005745 +0000	pull --rebase --recurse-submodules (finish): refs/heads/main onto 243c75b5d3d12c309334a7ecd54b9d8d058c31da
+d0c4c52b4f5f7511f4507cdd142117c25066b981 0061b0949f7f240720f6b04c41f995212c6438b5 dequeues <dequeues@outlook.com> 1676005917 +0000	commit: Update starship
+0061b0949f7f240720f6b04c41f995212c6438b5 a5a398ea752c4c0fcc20770c150472b06a4113df dequeues <dequeues@outlook.com> 1676009925 +0000	commit: Update and add if statements
+a5a398ea752c4c0fcc20770c150472b06a4113df 0d25e27f7770753b583b9a7fc3de8d0caaf3c672 dequeues <dequeues@outlook.com> 1676009961 +0000	commit: Updatee
+0d25e27f7770753b583b9a7fc3de8d0caaf3c672 4211732dbcd8d9803edfb4f86a66eadf64eb2c99 dequeues <dequeues@outlook.com> 1676011472 +0000	commit: Update
+4211732dbcd8d9803edfb4f86a66eadf64eb2c99 5cf22c48ed565157e302271f78ae8c9b7ca8ffc9 dequeues <dequeues@outlook.com> 1713623731 +0100	pull --rebase --recurse-submodules: Fast-forward
+5cf22c48ed565157e302271f78ae8c9b7ca8ffc9 4b365f2ca2b2abb8d172550748bec720825020ee dequeues <dequeues@outlook.com> 1713623832 +0100	commit: update
+4b365f2ca2b2abb8d172550748bec720825020ee e7ca390c0d50c7523e926ebb5251d245f139be99 dequeues <dequeues@outlook.com> 1713624001 +0100	commit: update
