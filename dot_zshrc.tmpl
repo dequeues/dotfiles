@@ -44,6 +44,12 @@ fi
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 #
 
+{{- if eq .chezmoi.hostname "work-laptop" }}
+alias rustscan='docker run -it --rm --name rustscan rustscan/rustscan:2.0.0' 
+export rockyou='/usr/share/wordlists/rockyou.txt'
+{{- end }}
+
+
 (( $+commands[exa] )) && alias ls=exa
 (( $+commands[fdfind] )) && alias fd=fdfind
 
